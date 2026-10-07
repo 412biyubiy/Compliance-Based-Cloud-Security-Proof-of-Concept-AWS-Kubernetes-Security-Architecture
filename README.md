@@ -322,69 +322,17 @@ flowchart TB
 
 ## 7. Repository Layout
 
-> This layout is a **recommended structure** for organizing the artifacts of the 374 steps. Adjust it to match your actual repository.
-
 ```text
 .
-├── README.md
-├── docs/
-│   ├── phases/
-│   │   ├── phase-01-networking-foundation.md
-│   │   ├── phase-02-security.md
-│   │   ├── phase-03-compute.md
-│   │   ├── phase-04-traffic-and-edge-security.md
-│   │   ├── phase-05-database.md
-│   │   ├── phase-06-storage-and-object-security.md
-│   │   ├── phase-07-domain-and-ssl.md
-│   │   ├── phase-08-secrets-and-encryption.md
-│   │   ├── phase-09-monitoring-and-observability.md
-│   │   ├── phase-10-audit-compliance-threat-detection.md
-│   │   ├── phase-11-automated-security-response.md
-│   │   ├── phase-12-container-supply-chain-security.md
-│   │   ├── phase-13-eks-workload-and-identity-security.md
-│   │   ├── phase-14-kubernetes-admission-and-runtime-security.md
-│   │   ├── phase-15-workload-identity-and-zero-trust.md
-│   │   ├── phase-16-resilience-governance-and-iac-validation.md
-│   │   └── phase-17-end-to-end-enterprise-validation.md
-│   ├── architecture/
-│   ├── compliance/
-│   │   ├── owasp-top10-mapping.md
-│   │   ├── pci-dss-alignment.md
-│   │   └── iso27001-alignment.md
-│   └── limitations/
-│       └── floci-limitations-register.md
-├── scripts/
-│   ├── env.sh                    # AWS_* variables and ENDPOINT
-│   ├── phase01-network/
-│   ├── phase02-security/
-│   ├── ...
-│   └── phase17-e2e/
-├── k8s/
-│   ├── namespaces/
-│   ├── rbac/
-│   ├── networkpolicies/
-│   ├── workloads/
-│   ├── kyverno/
-│   ├── gatekeeper/
-│   ├── falco/
-│   └── spire/
-├── terraform/
-│   ├── main.tf
-│   ├── variables.tf
-│   └── outputs.tf
-├── app/
-│   ├── Dockerfile
-│   └── src/
-├── lambda/
-│   └── remediation/
-└── evidence/
-    ├── phase-12/
-    ├── phase-15/
-    ├── phase-16/
-    └── phase-17/
-        ├── final-validation-matrix.txt
-        ├── compliance-mapping.txt
-        └── attack-summary.txt
+├── Architecture.png
+├── Phase 1-11.pdf
+├── Phase 12 — Container Supply Chain Security.md
+├── Phase 13 — EKS Workload & Identity Security.md
+├── Phase 14 — Kubernetes Admission & Runtime Security.md
+├── Phase 15 — Workload Identity & Zero Trust.md
+├── Phase 16 — Resilience, Governance & IaC Validation.md
+├── Phase 17 — End-to-end Enterprise Validation.md
+└── README.md
 ```
 
 ---
