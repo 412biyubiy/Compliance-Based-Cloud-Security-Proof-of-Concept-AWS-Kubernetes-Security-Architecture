@@ -992,8 +992,6 @@ Executed in Phase 17 against the production-like transaction path.
 
 ## 16. Compliance Alignment
 
-> **Wording rule for this repository:** use **"implements and validates controls relevant to"** or **"aligned with"**. Never write "PCI DSS compliant" or "ISO 27001 certified". Those statements require formal assessment or audit.
-
 ### 16.1 OWASP Top 10 (2021)
 
 | ID | Category | Project mapping | Status |
